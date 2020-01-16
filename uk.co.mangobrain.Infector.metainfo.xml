@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>uk.co.mangobrain.Infector</id>
+  <launchable type="desktop-id">uk.co.mangobrain.Infector.desktop</launchable>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Infector</name>
+  <summary>Play the classic two- to four-player board game Ataxx</summary>
+  <description>
+    <p>
+      Infector is a version of the classic board games Ataxx and
+      Hexxagon. Play alone against simple AI, or with up to four
+      players, locally or over a network.
+    </p>
+  </description>
+  <url type="homepage">http://infector.mangobrain.co.uk/</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://infector.mangobrain.co.uk/screenshots/0.7/1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://infector.mangobrain.co.uk/screenshots/0.7/2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://infector.mangobrain.co.uk/screenshots/0.7/3.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://infector.mangobrain.co.uk/screenshots/0.7/4.png</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.0" />
+  <releases>
+    <release version="0.7" date="2018-03-24" />
+  </releases>
+</component>
