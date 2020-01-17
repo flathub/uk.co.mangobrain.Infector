@@ -34,22 +34,6 @@
       ]
     },
     {
-      "name": "libsigc++",
-      "config-opts": [
-        "--disable-deprecated-api",
-        "--enable-static=yes",
-        "--enable-shared=no",
-        "--disable-documentation"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.gnome.org/sources/libsigc++/2.99/libsigc++-2.99.12.tar.xz",
-          "sha256": "d902ae277f5baf2d56025586e2153cc2f158472e382723c67f49049f7c6690a8"
-        }
-      ]
-    },
-    {
       "name": "glibmm",
       "config-opts": [
         "--enable-static=yes",
