@@ -1,7 +1,7 @@
 {
   "app-id": "uk.co.mangobrain.Infector",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.34",
+  "runtime-version": "3.38",
   "sdk": "org.gnome.Sdk",
   "command": "infector",
   "rename-icon": "infector",
@@ -18,6 +18,16 @@
   },
   "modules": [
     {
+      "name": "mm-common",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.2.tar.xz",
+          "sha256": "a2a99f3fa943cf662f189163ed39a2cfc19a428d906dd4f92b387d3659d1641d"
+        }
+      ]
+    },
+    {
       "name": "sigc++",
       "config-opts": [
         "--disable-deprecated-api",
@@ -28,8 +38,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/libsigc++/2.10/libsigc++-2.10.1.tar.xz",
-          "sha256": "c9a25f26178c6cbb147f9904d8c533b5a5c5111a41ac2eb781eb734eea446003"
+          "url": "https://download.gnome.org/sources/libsigc++/2.10/libsigc++-2.10.4.tar.xz",
+          "sha256": "1f5874358d9a21379024a4f4edba80a8a3aeb33f0531b192a6b1c35ed7dbfa3e"
         }
       ]
     },
@@ -43,8 +53,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/glibmm/2.62/glibmm-2.62.0.tar.xz",
-          "sha256": "36659f13cc73282392d1305858f3bbca46fbd1ce2f078cc9db8b9f79b2e93cfe"
+          "url": "https://download.gnome.org/sources/glibmm/2.64/glibmm-2.64.2.tar.xz",
+          "sha256": "a75282e58d556d9b2bb44262b6f5fb76c824ac46a25a06f527108bec86b8d4ec"
         }
       ]
     },
@@ -74,8 +84,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/pangomm/2.42/pangomm-2.42.0.tar.xz",
-          "sha256": "ca6da067ff93a6445780c0b4b226eb84f484ab104b8391fb744a45cbc7edbf56"
+          "url": "https://download.gnome.org/sources/pangomm/2.42/pangomm-2.42.1.tar.xz",
+          "sha256": "14bf04939930870d5cfa96860ed953ad2ce07c3fd8713add4a1bfe585589f40f"
         }
       ]
     },
