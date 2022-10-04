@@ -149,6 +149,10 @@
           "commit": "df5fa80ce3995ab2713b40d537501f10f1259de9"
         },
         {
+          "type": "patch",
+          "path": "fix-meson.patch"
+        },
+        {
           "type": "file",
           "path": "uk.co.mangobrain.Infector.metainfo.xml"
         }
