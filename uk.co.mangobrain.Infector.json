@@ -36,8 +36,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.4.tar.xz",
-          "sha256": "e954c09b4309a7ef93e13b69260acdc5738c907477eb381b78bb1e414ee6dbd8"
+          "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.5.tar.xz",
+          "sha256": "705c6d29f4116a29bde4e36cfc1b046c92b6ef8c6dae4eaec85018747e6da5aa"
         }
       ],
       "cleanup": [
@@ -47,17 +47,17 @@
     },
     {
       "name": "sigc++",
+      "buildsystem": "meson",
       "config-opts": [
-        "--disable-deprecated-api",
-        "--enable-static=no",
-        "--enable-shared=yes",
-        "--disable-documentation"
+        "-Dbuild-examples=false",
+        "-Dbuild-tests=false",
+        "-Dbuild-documentation=false"
       ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/libsigc++/2.10/libsigc++-2.10.8.tar.xz",
-          "sha256": "235a40bec7346c7b82b6a8caae0456353dc06e71f14bc414bcc858af1838719a"
+          "url": "https://download.gnome.org/sources/libsigc++/2.12/libsigc++-2.12.0.tar.xz",
+          "sha256": "1c466d2e64b34f9b118976eb21b138c37ed124d0f61497df2a90ce6c3d9fa3b5"
         }
       ]
     },
@@ -66,23 +66,23 @@
       "buildsystem": "meson",
       "config-opts": [
         "-Dbuild-documentation=false",
-        "-Dbuild-deprecated-api=false",
         "-Dbuild-examples=false"
       ],
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.4.tar.xz",
-          "sha256": "199ace5682d81b15a1d565480b4a950682f2db6402c8aa5dd7217d71edff81d5"
+          "url": "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.6.tar.xz",
+          "sha256": "5358742598181e5351d7bf8da072bf93e6dd5f178d27640d4e462bc8f14e152f"
         }
       ]
     },
     {
       "name": "cairomm",
+      "buildsystem": "meson",
       "config-opts": [
-        "--enable-static=no",
-        "--enable-shared=yes",
-        "--disable-documentation"
+        "-Dbuild-examples=false",
+        "-Dbuild-tests=false",
+        "-Dbuild-documentation=false"
       ],
       "sources": [
         {
@@ -96,7 +96,6 @@
       "name": "pangomm",
       "buildsystem": "meson",
       "config-opts": [
-        "-Dbuild-deprecated-api=false",
         "-Dbuild-documentation=false"
       ],
       "sources": [
@@ -112,7 +111,6 @@
       "name": "atkmm",
       "buildsystem": "meson",
       "config-opts": [
-        "-Dbuild-deprecated-api=false",
         "-Dbuild-documentation=false"
       ],
       "sources": [
@@ -127,8 +125,9 @@
       "name": "gtkmm",
       "buildsystem": "meson",
       "config-opts": [
-        "-Dbuild-x11-api=true",
-        "-Dbuild-documentation=false"
+        "-Dbuild-documentation=false",
+        "-Dbuild-demos=false",
+        "-Dbuild-tests=false"
       ],
       "sources": [
         {
