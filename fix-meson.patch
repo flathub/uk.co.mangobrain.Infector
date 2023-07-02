@@ -1,0 +1,24 @@
+From b7989c6ecc83857ccdeff5ec95386e8a0d6c07bd Mon Sep 17 00:00:00 2001
+From: bbhtt <62639087+bbhtt@users.noreply.github.com>
+Date: Tue, 4 Oct 2022 19:50:20 +0530
+Subject: [PATCH] Remove positional arg
+
+---
+ data/meson.build | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/data/meson.build b/data/meson.build
+index 3ffa499..5345e54 100644
+--- a/data/meson.build
++++ b/data/meson.build
+@@ -4,7 +4,6 @@ install_data('infector.ui', 'menu.ui', 'infector.png', 'stock_people.png',
+     install_dir: join_paths(datadir, 'infector'))
+ 
+ i18n.merge_file(
+-    'desktop',
+     input: 'infector.desktop.in',
+     output: 'infector.desktop',
+     install: true,
+-- 
+2.37.3
+
