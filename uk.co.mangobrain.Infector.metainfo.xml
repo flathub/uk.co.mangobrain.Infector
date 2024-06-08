@@ -13,7 +13,13 @@
       players, locally or over a network.
     </p>
   </description>
-  <url type="homepage">http://infector.mangobrain.co.uk/</url>
+  <url type="homepage">https://github.com/mangobrain/Infector</url>
+  <url type="bugtracker">https://github.com/mangobrain/Infector/issues</url>
+  <url type="vcs-browser">https://github.com/mangobrain/Infector</url>
+  <developer_name>Philip Allison</developer_name>
+  <developer id="uk.co.mangobrain">
+    <name>Philip Allison</name>
+  </developer>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/uk.co.mangobrain.Infector/master/screenshots/screenshot1.png</image>
@@ -28,7 +34,7 @@
       <image>https://raw.githubusercontent.com/flathub/uk.co.mangobrain.Infector/master/screenshots/screenshot4.png</image>
     </screenshot>
   </screenshots>
-  <content_rating type="oars-1.0" />
+  <content_rating type="oars-1.1" />
   <releases>
     <release version="0.7" date="2018-03-24" />
   </releases>
